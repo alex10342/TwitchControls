@@ -7,10 +7,10 @@
 5. Double click `start.bat` and enjoy!!
 
 ### Current Actions:
-- Saying `left` pressed the `A` key
-- Saying `right` pressed the `D` key
-- Saying `forward` pressed the `W` key
-- Saying `back` pressed the `S` key
-- Saying `jump` pressed the `spacebar` key
+- Saying `left` presses the `A` key
+- Saying `right` presses the `D` key
+- Saying `forward` presses the `W` key
+- Saying `back` presses the `S` key
+- Saying `jump` presses the `spacebar` key
 
 ##### Everything is configurable to your liking!
