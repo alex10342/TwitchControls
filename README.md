@@ -12,3 +12,5 @@
 - Saying `forward` pressed the `W` key
 - Saying `back` pressed the `S` key
 - Saying `jump` pressed the `spacebar` key
+
+##### Everything is configurable to your liking!
