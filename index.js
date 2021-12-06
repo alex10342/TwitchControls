@@ -1,6 +1,6 @@
 const tmi = require('tmi.js');
 const ks = require('node-key-sender');
-const {username, oauth, keyPressDelay} = require('./config')
+const {username, oauth, keyHoldDelay} = require('./config')
 
 const opts = {
   identity: {
@@ -19,7 +19,7 @@ client.connect();
 // ------------------------------------
 
 function onConnectedHandler(addr, port) {
-  ks.setOption("globalDelayPressMillisec", keyPressDelay)
+  ks.setOption("globalDelayPressMillisec", keyHoldDelay)
   console.log(`* Connected to ${addr}:${port}`);
 }
 
